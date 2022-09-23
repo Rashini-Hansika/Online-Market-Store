@@ -1,0 +1,58 @@
+
+
+/*payment-form*/
+.pHead{
+	color:#000000;
+	text-align:center;
+	font-family:Verdana;
+	font-weight:bold;
+	background-color:white;
+}
+
+.form{
+	background-color:#e6e6e6;
+	opacity:0.6;
+}
+.form:hover{
+	opacity:1;
+}
+
+.text,select{
+	padding:12px 20px;
+	box-sizing:border-box;
+	margin:4px;
+	display:inline;
+	border:1px solid #ccc;
+	border-radius:4px;
+	background-color:#0066ff;
+	width:100%;
+	color:white;
+	font-size:16px;
+}
+
+.sub{
+	width:100%;
+	background-color: #333399;
+	color:white;
+	padding:12px 20px;
+	margin:4px;
+	cursor:pointer;
+	border-radius:4px;
+	border:none;
+	font-size:16px;
+	opacity:1;
+	color:white;
+}
+
+.sub:hover{
+	opacity:0.6;
+}
+
+p.name{
+	font-size:20px;
+	font-family: Times New Roman;
+}
+
+
+
+

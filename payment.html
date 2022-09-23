@@ -1,0 +1,120 @@
+<!----------------------IT20639976 Hansika A G D R------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EXPRESS MARKETING - fashion, health & beauty, sprts & more</title>
+	<link rel="stylesheet" href="styleAndJs/styles.css">
+	<script src="styleAndJs/javaS.js"></script>
+</head>
+<body>
+<div class="topnbottom">
+	<table width="100%">
+		<tr>
+			<td rowspan="2"><img class="image1" width="150px" height="100px" src="images/logo.png"></td>
+			<td rowspan="2"><h1 class="heading"><b>EXPRESS MARKETING</b></h1></td>
+			<td colspan="2"><center><a class="avatar" a href="userAccount.html" ><img src="images/avatar2.png" width="80px"></center>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<center><button class="btn1" type="button" align="right"><a href="login.php">Login</a></button></center>
+			</td>
+			<td>
+				<center><button class="btn1" type="button"><a href="RegistrationForm.html">Register</a></button></center>
+			</td>
+		</tr>
+	</table>
+
+	<table width="100%" border="0">
+	<tr>
+		<td>
+			<ul class="menu">
+				<li class="menu"><a href="index.php">Home</a></li>
+				<li class="menu"><a href="categoryDisplay.html">Categories</a></li>
+				<li class="menu"><a href="service.html">Service</a></li>
+				<li class="menu"><a href="contactUs.html">Contact US</a></li>
+				<input type="text" placeholder="Search..." id="search">
+			</ul>
+		</td>
+		<td>
+	<!--cartImg-->
+		<center>
+			<a class="userAccount" href="userAccount.html"><img src="images/cart.png" width="70px" height="70px" ></a>
+		</center>
+		</td>
+	</tr>
+	</table>
+	<hr>
+	</div>
+	
+	
+	
+	
+	<!--form-->
+	<h1 class="pHead">Select Payment Method</h1>
+
+	<div class="form">
+	
+	<form name="payForm" method="post" action="payForm.php" onsubmit="return validatePayForm()">
+		<fieldset>
+			<p class="name">Card Type</p>
+			<table width="50%">
+				<td><input type="radio" name="cType" value="Visa" required="">Visa</td>
+							<td><input type="radio" name="cType" value="Master" required="">Master</td>
+							<td><input type="radio" name="cType" value="Credit" required="">Credit</td>
+							<td><input type="radio" name="cType" value="Debit" required="">Debit</td>
+			</table>
+			<p class="name">Card Number</p>
+			<input class="text" type="text" id="crdNum" name="cardNum" placeholder="Your Card Number.." >
+			<p class="name">Country</p>
+			<select id="country" name="cont" required = ""><option value="Aus">Australia</option>
+							<option value="Canada">Canada</option>
+							<option value="China">China</option>
+							<option value="Sri Lanka">Sri Lanka</option>
+							<option value="Dubai">Dubai</option></select><br/><p/>
+			<p class="name">City</p>
+			<input class="text" type="text" id="city" name="city" placeholder="Your City..">
+			<p class="name">Postal Code</p>
+			<input class="text" type="text" id="pcode" name="poscode" placeholder="Your Postal Code..">
+			<p class="name">Contact Number</p>
+			<input class="text" type="text" id="conNumber" name="contact" placeholder="Your Contact Number.." >
+			<p class="name">Email</p>
+			<input class="text" type="email" id="email" name="mail" placeholder="Your Email..">
+			<input class="sub" type="submit" value="Submit">
+		</fieldset>
+	</form>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!--footer-->
+<div>
+	<footer class="footer">
+	<hr>
+		<table width="100%">
+			<tr>
+				<td><a id ="fPara"width="60%" class ="footer" width="50%"><h4><i>Online market store is making quick progress as an acknowledge and utilzed business worldview. Increasingly more business houses are carrying out sites giving usefulness to performing business exchanges over the web. It is sensible to say that the way toward shopping on the web is getting typical.</i></h4></td>
+				<td><a class="fimg" href="https://usa.visa.com/" width="10%" target="_blank"><img src="images/visa.jpg" width="50px"></a>
+				<td><a class="fimg" href="https://www.creditcards.com/mastercard/" width="10%" target="_blank"><img width="50px" src="images/master.jpg"></a>
+				<td><a class="fimg" href="https://www.dinersclub.com/" width="10%" target="_blank"><img width="50px" src="images/diners.jpg"></a>
+				<td><a class="fimg" href="https://www.americanexpress.com/" width="10%" target="_blank"><img width="50px" src="images/american.jpg"></a>
+			</tr>
+		</table>
+	</footer>
+</div>
+</body>
+</html>
